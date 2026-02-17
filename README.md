@@ -168,14 +168,13 @@ http://localhost:5173
 - Role-based access control
 - Dashboard analytics & charts
 - Enhanced NLP parsing
-- Docker containerization
 
 ---
 
 ## 👨‍💻 Author
 
 Raj Singh  
-Backend Developer | Full Stack Enthusiast  
+Software Developer | Full Stack Enthusiast  
 
 GitHub: https://github.com/rajthakur26  
 LinkedIn: https://www.linkedin.com/in/rajsingh26  
