@@ -8,7 +8,7 @@ function App() {
 
   const fetchInventory = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/inventory");
+      const res = await axios.get("https://voice-inventory-pro.onrender.com/api/inventory");
       setInventory(res.data);
     } catch (error) {
       console.error("Error fetching inventory");
@@ -29,7 +29,7 @@ function App() {
       setText(transcript);
 
       try {
-        const res = await axios.post("http://localhost:5000/api/command", {
+        const res = await axios.post("https://voice-inventory-pro.onrender.com/api/command", {
           text: transcript
         });
 
@@ -44,7 +44,7 @@ function App() {
   const resetInventory = async () => {
     if (window.confirm("Are you sure you want to reset inventory?")) {
       try {
-        await axios.delete("http://localhost:5000/api/reset");
+        await axios.delete("https://voice-inventory-pro.onrender.com/api/reset");
         setResponse("Inventory Reset Successfully");
         fetchInventory();
       } catch (err) {
