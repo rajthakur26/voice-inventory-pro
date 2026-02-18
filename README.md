@@ -167,7 +167,7 @@ http://localhost:5173
 - Multi-user support
 - Role-based access control
 - Dashboard analytics & charts
-- Enhanced NLP parsing
+- Enhanced NLP parsing  
 
 ---
 

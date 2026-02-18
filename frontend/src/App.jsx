@@ -67,6 +67,7 @@ function App() {
       >
         🔄 Reset Inventory
       </button>
+              
 
       <p><strong>You said:</strong> {text}</p>
       <pre>{response}</pre>
